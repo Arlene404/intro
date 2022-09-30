@@ -1,0 +1,303 @@
+/* *{
+    padding: 0;
+    margin: 0;
+} */
+html, body{
+    background-image: url(photos/Home\ page.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.login{
+     width: 350px;
+     top:50%;
+     left: 40%;
+     transform: translate(-20%, -40%);
+     position: absolute;
+     color: white;
+}
+
+.login h2{
+    font-size: 30px;
+    margin: 40px 0;
+    
+}
+
+.login p{
+    font-size: 20px;
+    margin: 15px 0;
+}
+
+.login input{
+    font-size: 15px;
+    width: 100%;
+    padding: 15px 10px;
+    border: 0;
+    outline: none;
+    border-radius: 5px;
+}
+
+.login button{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px 0;
+    padding: 5px 15px;
+    width: 30%;
+    border-radius: 5px;
+    border: 0;
+}
+
+/* .logo{
+    font-size: 30px;
+    color: bisque;
+    font-family: Arial;
+    padding-left: 20px;
+
+} */
+
+/* .top{
+    width: 400px;
+    float: left;
+    height: 100px; 
+    margin-left: 65%;
+     top: 80%; 
+
+} */
+
+/* .navbar{
+    height: 1200px;
+    height: 75px;
+    margin: auto;
+} */
+/* 
+.icon{ margin: 200px;
+    float: left;
+    height: 20px;
+    margin-top: 500px;
+     
+
+} */
+   
+    
+
+
+/* ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+ul li a:hover{
+    color: cadetblue;
+}
+
+.content{
+    color: white;
+    padding-left: 20px;
+    float: left;
+    margin-bottom: 30%;
+
+} */
+
+.signup{
+    width: 350px;
+    height: 30px;
+    top: 10%;
+    left: 40%;
+    transform: translate(-20%, -40%);
+    position: absolute;
+    color: white;
+    
+}
+
+ .signup h2{
+    font-size: 30px;
+    margin: 0;
+    padding: 5px 0;
+    text-align: center;
+}
+
+.signup p{
+    font-size: 20px;
+    margin: 10px 0;
+}
+   
+.signup input{
+    font-size: 15px;
+    width: 100%;
+    padding: 15px 10px;
+    border: 0;
+    outline: none;
+    border-radius: 5px;
+}
+
+
+.signup button{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px 0;
+    padding: 10px 15px;
+    width: 45%;
+    border-radius: 5px;
+    border: 0;
+} 
+
+form{
+    background-color: rgba(184, 153, 112, 0.597);
+    padding: 10px 10px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+.forgot{
+    width: 350px;
+     top:50%;
+     left: 40%;
+     transform: translate(-20%, -40%);
+     position: absolute;
+     color: white;
+
+}
+
+.forgot h2{
+    font-size: 30px;
+    margin: 40px 0;
+}
+.forgot p{
+    font-size: 20px;
+    margin: 15px 0;
+}
+
+.forgot input{
+    font-size: 15px;
+    width: 80%;
+    padding: 15px 10px;
+    border: 0;
+    outline: none;
+    border-radius: 5px;
+}
+
+.forgot button{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px 0;
+    padding: 10px 15px;
+    width: 30%;
+    border-radius: 5px;
+    border: 0;
+}
+
+.newpass{
+    width: 350px;
+    top:50%;
+    left: 40%;
+    transform: translate(-20%, -40%);
+    position: absolute;
+    color: white;
+}
+
+.newpass h2{
+    font-size: 30px;
+    margin: 40px 0;
+} 
+
+.newpass p{
+    font-size: 20px;
+    margin: 15px 0; 
+}
+
+.newpass input{
+    font-size: 15px;
+    width: 80%;
+    padding: 15px 10px;
+    border: 0;
+    outline: none;
+    border-radius: 5px;
+}
+
+.newpass button{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px 0;
+    padding: 10px 15px;
+    width: 45%;
+    border-radius: 5px;
+    border: 0;
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    color: white;
+}
+
+.top ul{
+    list-style: none;
+    display: flex;
+    margin-right: 40px;
+    width: 40%;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.top ul li{
+    font-family: Arial;
+    font-size: medium;
+}
+
+.top ul li a{
+    color: white;
+    font-size: medium;
+    text-decoration: none;
+}
+
+.top ul li a:hover{
+    color:  rgba(184, 153, 112, 0.597);
+    
+}
+
+.word{
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    padding-bottom: 30px;
+    
+   
+
+}
+
+p{
+    text-align: center;
+   
+
+}
+h2{
+   margin-top: 30px;
+   color:  rgba(228, 185, 128, 0.597);
+}
+
+.worr{
+    padding-top: 20px;
+}
+
+
+
+
+ 
